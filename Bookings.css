@@ -78,7 +78,7 @@
 
 .u-section-2 .u-text-1 {
   font-size: 2.25rem;
-  margin: 22px 0 0;
+  margin: 49px 0 0;
 }
 
 .u-section-2 .u-text-2 {
@@ -87,6 +87,10 @@
 }
 
 @media (max-width: 1199px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 686px;
+  }
+
   .u-section-2 .u-image-1 {
     height: 503px;
   }
@@ -97,24 +101,31 @@
   }
 
   .u-section-2 .u-group-1 {
-    min-height: 543px;
+    min-height: 310px;
     width: 402px;
     height: auto;
+    margin: -115px 262px 20px auto;
+  }
+
+  .u-section-2 .u-container-layout-1 {
+    padding-top: 25px;
   }
 
   .u-section-2 .u-text-1 {
     font-size: 3.75rem;
+    margin-top: 0;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 1183px;
+    min-height: 973px;
   }
 
   .u-section-2 .u-image-1 {
     width: 658px;
     height: 457px;
+    object-position: 50% 65.17%;
     margin-top: 59px;
   }
 
@@ -125,9 +136,10 @@
   }
 
   .u-section-2 .u-group-1 {
-    min-height: 487px;
+    min-height: 306px;
     margin-top: -155px;
     margin-right: 48px;
+    margin-bottom: 30px;
   }
 
   .u-section-2 .u-container-layout-1 {
@@ -138,7 +150,7 @@
 
 @media (max-width: 767px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 1154px;
+    min-height: 821px;
   }
 
   .u-section-2 .u-image-1 {
@@ -154,8 +166,11 @@
   }
 
   .u-section-2 .u-group-1 {
+    min-height: 316px;
     width: 346px;
-    margin: -127px auto 59px 114px;
+    margin-top: -250px;
+    margin-right: 0;
+    margin-bottom: 19px;
   }
 
   .u-section-2 .u-container-layout-1 {
@@ -166,7 +181,7 @@
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 1139px;
+    min-height: 590px;
   }
 
   .u-section-2 .u-image-1 {
@@ -175,13 +190,16 @@
   }
 
   .u-section-2 .u-image-2 {
-    width: 272px;
-    height: 325px;
-    margin-top: -48px;
+    width: 202px;
+    height: 241px;
+    margin-top: -122px;
+    margin-left: -32px;
   }
 
   .u-section-2 .u-group-1 {
-    margin-top: 43px;
+    min-height: 268px;
+    margin-top: -90px;
+    margin-bottom: 21px;
     margin-right: initial;
     margin-left: initial;
     width: auto;
