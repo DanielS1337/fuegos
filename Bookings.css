@@ -1,9 +1,22 @@
- .u-section-1 {
-  background-image: linear-gradient(#478ac9, #db545a);
-}
-
 .u-section-1 .u-sheet-1 {
   min-height: 500px;
+}
+
+.u-section-1 .embed-responsive-1 {
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  height: 494%;
+  top: -197%;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .embed-responsive-1 {
+    width: 178%;
+    left: -39%;
+    height: 178%;
+    top: -39%;
+  }
 }
 
 @media (max-width: 991px) {
@@ -22,57 +35,55 @@
   .u-section-1 .u-sheet-1 {
     min-height: 220px;
   }
+
+  .u-section-1 .embed-responsive-1 {
+    width: 261%;
+    left: -81%;
+    height: 100%;
+    top: 0%;
+  }
 } .u-section-2 {
   background-image: none;
 }
 
 .u-section-2 .u-sheet-1 {
-  min-height: 1058px;
+  min-height: 705px;
 }
 
 .u-section-2 .u-image-1 {
   width: 616px;
   height: 616px;
   object-position: 50% 100%;
-  margin: 34px 113px 0 auto;
+  margin: -15px 19px 0 auto;
 }
 
 .u-section-2 .u-image-2 {
   width: 551px;
   height: 475px;
-  margin: -245px auto 0 0;
+  margin: -529px auto 0 0;
 }
 
 .u-section-2 .u-group-1 {
-  min-height: 534px;
-  width: 437px;
+  min-height: 308px;
+  width: 426px;
   background-image: none;
   height: auto;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.2);
-  margin: -390px 0 34px auto;
+  margin: -169px auto 19px 276px;
 }
 
 .u-section-2 .u-container-layout-1 {
-  padding: 30px 40px;
+  padding: 30px 40px 20px;
 }
 
 .u-section-2 .u-text-1 {
   font-size: 2.25rem;
-  margin: 124px 0 0;
+  margin: 22px 0 0;
 }
 
 .u-section-2 .u-text-2 {
   font-size: 1.125rem;
   margin: 27px 0 0;
-}
-
-.u-section-2 .u-btn-1 {
-  border-style: solid;
-  background-image: none;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin: 20px auto 0 0;
-  padding: 13px 41px 14px 40px;
 }
 
 @media (max-width: 1199px) {
@@ -105,7 +116,6 @@
     width: 658px;
     height: 457px;
     margin-top: 59px;
-    margin-right: 104px;
   }
 
   .u-section-2 .u-image-2 {
@@ -145,9 +155,7 @@
 
   .u-section-2 .u-group-1 {
     width: 346px;
-    margin-top: -127px;
-    margin-right: 0;
-    margin-bottom: 59px;
+    margin: -127px auto 59px 114px;
   }
 
   .u-section-2 .u-container-layout-1 {
