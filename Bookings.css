@@ -210,8 +210,11 @@
   }
 } .u-section-3 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("images/bottles.jpg");
-  min-height: 818px;
   background-position: 50% 50%;
+}
+
+.u-section-3 .u-sheet-1 {
+  min-height: 818px;
 }
 
 .u-section-3 .u-layout-wrap-1 {
@@ -220,7 +223,7 @@
 }
 
 .u-section-3 .u-layout-cell-1 {
-  min-height: 598px;
+  min-height: 627px;
   background-image: none;
 }
 
@@ -259,8 +262,14 @@
   width: 100%;
 }
 
+.u-section-3 .u-text-2 {
+  font-size: 1.5rem;
+  width: 241px;
+  margin: 42px auto 0;
+}
+
 .u-section-3 .u-layout-cell-2 {
-  min-height: 598px;
+  min-height: 627px;
   background-image: none;
 }
 
@@ -269,8 +278,8 @@
 }
 
 @media (max-width: 1199px) {
-   .u-section-3 {
-    min-height: 569px;
+  .u-section-3 .u-sheet-1 {
+    min-height: 564px;
   }
 
   .u-section-3 .u-layout-wrap-1 {
@@ -278,7 +287,7 @@
   }
 
   .u-section-3 .u-layout-cell-1 {
-    min-height: 493px;
+    min-height: 517px;
   }
 
   .u-section-3 .u-form-1 {
@@ -286,13 +295,13 @@
   }
 
   .u-section-3 .u-layout-cell-2 {
-    min-height: 493px;
+    min-height: 517px;
   }
 }
 
 @media (max-width: 991px) {
-   .u-section-3 {
-    min-height: 176px;
+  .u-section-3 .u-sheet-1 {
+    min-height: 443px;
   }
 
   .u-section-3 .u-layout-wrap-1 {
@@ -300,7 +309,7 @@
   }
 
   .u-section-3 .u-layout-cell-1 {
-    min-height: 607px;
+    min-height: 100px;
   }
 
   .u-section-3 .u-form-1 {
@@ -308,31 +317,31 @@
   }
 
   .u-section-3 .u-layout-cell-2 {
-    min-height: 607px;
+    min-height: 396px;
   }
 }
 
 @media (max-width: 767px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 741px;
+  }
+
   .u-section-3 .u-layout-wrap-1 {
     width: 540px;
   }
 
-  .u-section-3 .u-layout-cell-1 {
-    min-height: 567px;
-  }
-
   .u-section-3 .u-layout-cell-2 {
-    min-height: 520px;
+    min-height: 594px;
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-3 .u-layout-wrap-1 {
-    width: 340px;
+  .u-section-3 .u-sheet-1 {
+    min-height: 521px;
   }
 
-  .u-section-3 .u-layout-cell-1 {
-    min-height: 100px;
+  .u-section-3 .u-layout-wrap-1 {
+    width: 340px;
   }
 
   .u-section-3 .u-container-layout-1 {
@@ -345,6 +354,6 @@
   }
 
   .u-section-3 .u-layout-cell-2 {
-    min-height: 327px;
+    min-height: 374px;
   }
 }
